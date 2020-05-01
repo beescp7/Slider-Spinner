@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Spinner fx:id="spinner1" layoutX="136.0" layoutY="230.0" />
+      <Spinner fx:id="spinner2" layoutX="329.0" layoutY="230.0" />
+      <Slider fx:id="slider1" layoutX="116.0" layoutY="129.0" majorTickUnit="20.0" showTickLabels="true" showTickMarks="true" value="50.0" />
+   </children>
+</AnchorPane>
